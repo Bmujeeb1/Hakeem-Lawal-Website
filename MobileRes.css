@@ -13,7 +13,7 @@
     text-align: center;
 }
 .hkl{
-    margin: 20px 0;
+    margin: 20px 0 !important;
     /* color: #fff  !important; */
 }
 /* .donate{
@@ -46,10 +46,71 @@ left: 35%;
     transition: all .5s ease-in-out;
     color: rgba(5, 5, 26, 0.637);
 }
+.knowCandidate{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px black;
+    /* font-family: serif; */
+}
+.reviewOrder{
+    background:linear-gradient(to left, #ffa600c7, #ff7f50c2), url(./Photos/HOL13.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 30px 20px;
+}
+.but button{
+    background: #093609ea;
+    color: #fff;
+    padding:8px 12px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    font-size: 22px;
+    margin: 20px;
+}
+.but{
+    text-align: center;
+}
+.eps{
+    line-height: 1.8rem;
+}
+.rst{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    text-shadow:2px 0 black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 @media screen and (max-width: 768px){
+    
+    .hkl{
+        position: relative;
+        bottom: -300px;
+    }
     #Kwara i{
         font-size: 20px;
         margin-bottom: 100px;
@@ -95,5 +156,21 @@ left: 35%;
     }
     .nyk{
         /* font-size: 25px !important; */
+    }
+    .knowCandidate{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:390px){
+    .knowCandidate{
+        font-size: 25px;
+    }
+    h2#i{
+        position: relative;
+        top: 20% !important;
+        font-size: 50px;
+    }
+    .eps{
+        font-size: 18px;
     }
 }
