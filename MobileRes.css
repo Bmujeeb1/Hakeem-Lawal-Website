@@ -1,0 +1,99 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+#Kwara i{
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+.wrapper .content{
+    padding: 50px ;
+}
+.More p a{
+    text-align: center;
+}
+.hkl{
+    margin: 20px 0;
+    /* color: #fff  !important; */
+}
+/* .donate{
+    position: relative;
+    top: -250px;
+left: 35%;
+} */
+.download-btn{
+    position: relative;
+    top: 100px;
+    left: 50%;
+}
+.jk{
+    font-size: 25;
+}
+.nyk{
+    position: relative;
+    left: 2%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important; */
+}
+.right-col ul li{
+    line-height: 2.5rem;
+    /* text-align: center; */
+}
+.right-col ul li a:hover{
+    padding: 7px 10px;
+    transition: all .5s ease-in-out;
+    color: rgba(5, 5, 26, 0.637);
+}
+
+
+
+@media screen and (max-width: 768px){
+    #Kwara i{
+        font-size: 20px;
+        margin-bottom: 100px;
+    }   
+    .infra{
+        height:150vh !important;
+        }
+        .donate{
+            position: relative;
+            top: -250px;
+        left: 30%;
+        }
+        .jk{
+            font-size: 15px;
+        }
+        
+    }
+    @media screen and (min-width: 425px){
+    #jtk{
+        position: relative;
+        left: 25% !important;
+    }
+    
+    .infra{
+        height:50vh;
+}
+.donate{
+    position: relative;
+    top: -300px;
+    left: 42%;
+}
+.nyk{
+    margin-left: 50px !important;
+}
+}
+@media screen and (max-width: 320px){
+    
+    #handyCoin{
+        width: 20% !important;
+    }
+    .jk{
+        font-size: 20px !important;
+    }
+    .nyk{
+        /* font-size: 25px !important; */
+    }
+}
